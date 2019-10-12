@@ -1,4 +1,4 @@
-package hai.com.creational.factory;
+package hai.com.creational.abstractfactory.accountfactory;
 
 public class AccountFactory {
 	

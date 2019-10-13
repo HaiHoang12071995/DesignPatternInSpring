@@ -1,8 +1,16 @@
 package hai.com.creational.abstractfactory.accountfactory;
 
-public class AccountFactory {
-	
-	public static final Account getAccount(BankType bankType) {
+import hai.com.creational.abstractfactory.abstract_factory_main.AbstractFactory;
+import hai.com.creational.abstractfactory.bankfactory.Bank;
+import hai.com.creational.abstractfactory.bankfactory.BankName;
+
+public class AccountFactory extends AbstractFactory {
+	@Override
+	public Bank getBank(BankName bankName) {
+		return null;
+	}
+	@Override
+	public Account getAccount(BankType bankType) {
 		switch (bankType) {
 
 		case SAVINGACCOUNT:

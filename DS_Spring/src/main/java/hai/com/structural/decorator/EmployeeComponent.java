@@ -25,6 +25,7 @@ public interface EmployeeComponent {
 
 		join(Calendar.getInstance().getTime());
 		Calendar terminateDate = Calendar.getInstance();
+		
 		terminateDate.add(Calendar.MONTH, 6);
 		terminate(terminateDate.getTime());
 
